@@ -54,7 +54,9 @@ a {
     padding-top:25px;
     background-color:#ADA296;
     width:504px;
-    border:1px solid #ACD8F0; }
+    border:10px solid black;
+    float:right;
+}
   
 #loginform { padding-top:18px; }
   
