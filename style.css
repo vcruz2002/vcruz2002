@@ -37,9 +37,7 @@ h1{
     text-align: center;
     background-color:#ADA296;
     border: 10px solid black;
-    postion:relative;
-    right:-400px;
-    top:-200px;
+    float:left;
 }
 #links{
     color:white;
