@@ -3,7 +3,14 @@ body {
     font:12px arial;
     color: #222;
     text-align:center;
-    padding:35px; }
+    padding:35px;
+    background-color:#5BC0DE;
+}
+
+h1{
+    font-size:2em;
+    text-shadow:5px 5px black;
+}
   
 form, p, span {
     margin:0;
