@@ -40,7 +40,16 @@ h1{
     float:left;
     margin-left: 20px;
 }
-#links{
+#skillz:hover{
+      width:400px;
+    height: 200px;
+    border-radius: 300px;
+    text-align: center;
+    background-image:url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjw9_yRhYbXAhXHhVQKHVfjCdEQjRwIBw&url=http%3A%2F%2Fclipart-library.com%2Fannouncements-cliparts.html&psig=AOvVaw0frtxi16aBt5GA3ZYawOm_&ust=1508823884042083");
+    border: 10px solid black;
+    float:left;
+    margin-left: 20px;
+.links{
     color:white;
     font-family:"Impact";
     font-size: 3em;
