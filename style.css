@@ -12,7 +12,7 @@ h1{
     text-shadow:15px white;
 }
 
-#yo{
+.yo{
     width:400px;
     height: 200px;
     border-radius: 300px;
@@ -21,12 +21,13 @@ h1{
     border: 10px solid black;
     float:left;
 }
-#yo:hover{
+.yo:hover{
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/49/85/6f/49856f7e311f5e79457715b55f0fdd89.jpg");
     width: 400px;
     height: 200px;
     border-radius: 300px;
     border: 10px solid black;
+    color:black;
     float:left;
 }
 
@@ -34,6 +35,7 @@ h1{
     color:white;
     font-family:"Impact";
     font-size: 3em;
+    margin: auto;
 }
   
 form, p, span {
