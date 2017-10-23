@@ -9,7 +9,21 @@ body {
 
 h1{
     font-size:4em;
-    text-shadow:5px white;
+    text-shadow:15px 5px white;
+}
+
+#yo{
+    width:400px;
+    height: 200px;
+    border-radius: 300px;
+    text-align: center;
+    background-color:#ADA296;
+}
+#yo:hover{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/49/85/6f/49856f7e311f5e79457715b55f0fdd89.jpg");
+    width: 400px;
+    height: 200px;
+    border-radius: 400px;
 }
   
 form, p, span {
