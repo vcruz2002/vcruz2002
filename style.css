@@ -20,7 +20,7 @@ a {
 #wrapper, #loginform {
     margin:0 auto;
     padding-bottom:25px;
-    background-color:blue;
+    background-color:#ADA296;
     width:504px;
     border:1px solid #ACD8F0; }
   
@@ -33,7 +33,7 @@ a {
     margin:0 auto;
     margin-bottom:25px;
     padding:10px;
-    background-color:white;
+    background-color:#9CC1C0;
     height:270px;
     width:430px;
     border:1px solid black;
