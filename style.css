@@ -51,6 +51,7 @@ a {
 #wrapper, #loginform {
     margin:0 auto;
     padding-bottom:25px;
+    padding-top:25px;
     background-color:#ADA296;
     width:504px;
     border:1px solid #ACD8F0; }
