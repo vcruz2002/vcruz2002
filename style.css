@@ -9,7 +9,8 @@ body {
 
 h1{
     font-size:4em;
-    text-shadow:15px white;
+    text-shadow:1px 1px black;
+    color:white;
 }
 
 #yo{
