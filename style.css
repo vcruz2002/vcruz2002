@@ -21,7 +21,7 @@ body {
     background-color:#FBF2C0;
     border:5px solid white;
     float: left;
-    padding:3em;
+    vertical-align: middle;
 }
 #yo:hover{
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/49/85/6f/49856f7e311f5e79457715b55f0fdd89.jpg");
@@ -42,7 +42,7 @@ body {
     border:5px solid white;
     float: left;
     margin-left: 35px;
-    padding:3em;
+    vertical-align:middle;
 }
 #skillz:hover{
       width:400px;
