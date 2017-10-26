@@ -13,13 +13,11 @@ h1{
 }
 
 #yo{
-    width:400px;
+    width:33.3%;
     height: 200px;
     border-radius: 300px;
     text-align: center;
     background-color:#ADA296;
-    border: 10px solid black;
-    float:left;
 }
 #yo:hover{
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/49/85/6f/49856f7e311f5e79457715b55f0fdd89.jpg");
@@ -31,14 +29,11 @@ h1{
     float:left;
 }
 #skillz{
-    width:400px;
+    width:33.3%;
     height: 200px;
     border-radius: 300px;
     text-align: center;
     background-color:#ADA296;
-    border: 10px solid black;
-    float:left;
-    margin-left: 20px;
 }
 #skillz:hover{
       width:400px;
@@ -74,9 +69,7 @@ a {
     padding-bottom:25px;
     padding-top:25px;
     background-color:#ADA296;
-    width:504px;
-    border:10px solid black;
-    float:right;
+    width:33.3%;
 }
   
 #loginform { padding-top:18px; }
