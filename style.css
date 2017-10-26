@@ -12,48 +12,7 @@ body {
     color:white;
 }
 
-.dropbtn {
-    background-color:silver;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    font-family: "Impact";
-    height:75px;
-    width:120px;
-}
 
-.dropbtn:hover, .dropbtn:focus {
-    background-color: black;
-    height: 75px;
-    width: 120px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.show {
-    display:block;
-}
 
 #yo{
     width:400px;
