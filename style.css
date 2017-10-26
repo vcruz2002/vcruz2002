@@ -1,7 +1,6 @@
 /* CSS Document */
 body {
     font:12px arial;
-    color: #222;
     text-align:center;
     padding:35px;
     background-color:#014293;
@@ -21,7 +20,9 @@ body {
     background-color:#FBF2C0;
     border:5px solid white;
     float: left;
+    display: table-cell;
     vertical-align: middle;
+    color:black;
 }
 #yo:hover{
     background-image: url("https://s-media-cache-ak0.pinimg.com/originals/49/85/6f/49856f7e311f5e79457715b55f0fdd89.jpg");
@@ -41,7 +42,9 @@ body {
     background-color:#FBF2C0;
     border:5px solid white;
     float: left;
+    color:black;
     margin-left: 35px;
+    display:table-cell;
     vertical-align:middle;
 }
 #skillz:hover{
