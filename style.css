@@ -20,11 +20,10 @@ body {
     background-color:#FBF2C0;
     border:5px solid white;
     float: left;
-    vertical-align: middle;
     color:black;
 }
 #yo:hover{
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/49/85/6f/49856f7e311f5e79457715b55f0fdd89.jpg")no-repeat center center fixed;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/49/85/6f/49856f7e311f5e79457715b55f0fdd89.jpg");
     width: 400px;
     height: 200px;
     border-radius: 300px;
@@ -44,8 +43,6 @@ body {
     float: left;
     color:black;
     margin-left: 35px;
-    display:table-cell;
-    vertical-align:middle;
 }
 #skillz:hover{
       width:400px;
@@ -53,7 +50,7 @@ body {
     border-radius: 300px;
     color: black;
     text-align: center;
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d1/9d/b4/d19db45d5e14053710c0cac5a54ae6a9.jpg") no-repeat center center fixed;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d1/9d/b4/d19db45d5e14053710c0cac5a54ae6a9.jpg");
     border: 5px solid white;
     background-size:cover;
     float:left;
@@ -64,6 +61,8 @@ body {
     font-size: 4em;
     vertical-align:middle;
     color:#014293;
+    position:relative;
+    top:100px;
 }
   
 form, p, span {
