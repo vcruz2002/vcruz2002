@@ -59,10 +59,10 @@ body {
     margin-left: 35px;
 }
 .links{
-    color:white;
     font-family:"Impact";
     font-size: 3em;
-    margin: auto;
+    display:table-cell;
+    vertical-align:middle;
 }
   
 form, p, span {
