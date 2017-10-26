@@ -12,6 +12,29 @@ body {
     color:white;
 }
 
+.dropbtn {
+    background-color:silver;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Impact";
+    height:75px;
+    width:120px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+    height: 75px;
+    width: 120px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
