@@ -51,6 +51,9 @@ body {
     text-decoration: none;
     display: block;
 }
+.show {
+    display:block;
+}
 
 #yo{
     width:400px;
