@@ -45,7 +45,7 @@ h1{
     height: 200px;
     border-radius: 300px;
     text-align: center;
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d1/9d/b4/d19db45d5e14053710c0cac5a54ae6a9.jpg" height:30px width:30px);
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/d1/9d/b4/d19db45d5e14053710c0cac5a54ae6a9.jpg");
     border: 10px solid black;
     float:left;
     margin-left: 20px;
