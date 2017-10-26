@@ -39,6 +39,7 @@ h1{
     background-color:#ADA296;
     border:5px solid white;
     float: left;
+    margin-left: 35px;
 }
 #skillz:hover{
       width:400px;
