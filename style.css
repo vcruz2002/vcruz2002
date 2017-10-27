@@ -13,7 +13,9 @@ body {
     color:white;
 }
 
-
+section{
+    font-size:1em;
+}
 
 #yo{
     width:400px;
