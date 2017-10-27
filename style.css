@@ -13,8 +13,8 @@ body {
     color:white;
 }
 
-#sports .part{
-    font-size:1em;
+#sports{
+    background-color:red;
 }
 
 #yo{
