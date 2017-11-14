@@ -16,7 +16,7 @@ function loginForm() {
 if (isset ( $_POST ['enter'] )) {
     if ($_POST ['name'] != "") {
         $_SESSION ['name'] = stripslashes ( htmlspecialchars ( $_POST ['name'] ) );
-        $fp = fopen ( "log.html", 'a' );
+        $fp = fopen ( "index.html", 'a' );
         fwrite ( $fp, "<div class='msgln'><i>User " . $_SESSION ['name'] . " has joined the chat session.</i><br></div>" );
         fclose ( $fp );
     } else {
