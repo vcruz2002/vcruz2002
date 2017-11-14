@@ -27,7 +27,7 @@ if (isset ( $_POST ['enter'] )) {
 if (isset ( $_GET ['logout'] )) {
    
     // Simple exit message
-    $fp = fopen ( "log.html", 'a' );
+    $fp = fopen ( "index.html", 'a' );
     fwrite ( $fp, "<div class='msgln'><i>User " . $_SESSION ['name'] . " has left the chat session.</i><br></div>" );
     fclose ( $fp );
    
@@ -141,8 +141,8 @@ a:hover {
             <div style="clear: both"></div>
         </div>
         <div id="chatbox"><?php
-        if (file_exists ( "log.html" ) && filesize ( "log.html" ) > 0) {
-            $handle = fopen ( "log.html", "r" );
+        if (file_exists ( "index.html" ) && filesize ( "log.html" ) > 0) {
+            $handle = fopen ( "index.html", "r" );
             $contents = fread ( $handle, filesize ( "log.html" ) );
             fclose ( $handle );
            
@@ -183,7 +183,7 @@ $("#submitmsg").click(function(){
 function loadLog(){    
     var oldscrollHeight = $("#chatbox").attr("scrollHeight") - 20; //Scroll height before the request
     $.ajax({
-        url: "log.html",
+        url: "index.html",
         cache: false,
         success: function(html){       
             $("#chatbox").html(html); //Insert chat log into the #chatbox div  
