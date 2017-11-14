@@ -141,9 +141,9 @@ a:hover {
             <div style="clear: both"></div>
         </div>
         <div id="chatbox"><?php
-        if (file_exists ( "index.html" ) && filesize ( "log.html" ) > 0) {
+        if (file_exists ( "index.html" ) && filesize ( "index.html" ) > 0) {
             $handle = fopen ( "index.html", "r" );
-            $contents = fread ( $handle, filesize ( "log.html" ) );
+            $contents = fread ( $handle, filesize ( "index.html" ) );
             fclose ( $handle );
            
             echo $contents;
